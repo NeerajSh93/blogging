@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(230, 178, 67);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .container{
+        box-shadow: 10px 2px 2px rgba(0, 0, 0, 1);
+        background-color: #fff;
+        max-width: 300px;
+        width: 100%;
+        padding: 1vw 1vw;
+        border-radius: 1vw;
+        border: 1px solid black;
+    }
+    /* .image{
+        max-width: 200px;
+        width: 100%;
+    } */
+    .im{
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        /* padding: 0.5vw 0.5vw; */
+        border-radius: 1vw;
+    }
+    button{
+        color: black;
+        font-size: 1vw;
+        background-color: rgb(245, 183, 50);
+        padding: 0.4vw 1vw;
+        font-weight: 600;
+        border: none;
+        margin-top: 1vw;
+        border-radius: 0.3vw;
+    }
+    .first-head p{
+        padding: 1vw 0;
+        font-size: 1vw;
+        font-weight: 600;
+    }
+    h3{
+        padding: 0.5vw 0;
+        margin-bottom: 1vw;
+    }
+    span{
+        color: gray;
+        padding: 2vw 0;
+        font-size: 1.1vw;
+    }
+    .four-head{
+        display: flex;
+        padding: 1vw 0;
+        align-items: center;
+    }
+    .four-head p{
+        font-size: 1.1vw;
+        font-weight: 600;
+        padding: 1vw 0.5vw;
+    }
+    .pexel{
+        background-size: cover;
+        height: 2vw;
+        width: 2vw;
+        border-radius: 50%;
+    }
+    @media (max-width:600px) {
+        body{
+            height: 100vh;
+        }
+        .container{
+            width: 80%;
+            padding: 4vw 4vw;
+            border-radius: 3vw;
+        }
+        .im{
+            border-radius: 3vw;
+        }
+        button{
+            font-size: 3vw;
+            padding: 2.5vw 2.5vw;
+            margin-top: 2vw;
+            border-radius: 1vw;
+        }
+        .first-head p{
+        padding: 3vw 0;
+        font-size: 4vw;
+        font-weight: 600;
+        }
+        h3{
+            
+            font-size: 5vw;
+            width: 100%;
+        }
+        span{
+            padding: 2vw 0;
+            font-size: 3.3vw;
+            line-height: 2vw;
+        }
+        .four-head{
+        display: flex;
+        padding: 3vw 0;
+        align-items: center;
+        }
+
+        .four-head p{
+        font-size: 3.6vw;
+        font-weight: 600;
+        padding: 1vw 0.5vw;
+        }
+        .pexel{
+            height: 5vw;
+            width: 5vw;
+        }
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="image">
+         <img src="illustration-article.jpg" alt="" class="im">
+        </div>
+        <div class="first-head">
+            <button>Learning</button>
+            <p>Published 21 Dec 2023 </p>
+        </div>
+        <div class="second-head">
+            <h3>HTML & CSS foundations</h3>
+        </div>
+        <div class="third-head">
+            <span>These language are the backbone of every website, defining structure, content, and presentation. </span>
+        </div>
+        <div class="four-head">
+            <img src="pexels-christina-morillo-1181742.jpg" alt="" class="pexel">
+            <p>Greg Hooper</p>
+        </div>
+    </div>
+</body>
+</html>
